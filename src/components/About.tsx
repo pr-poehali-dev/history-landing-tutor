@@ -1,11 +1,11 @@
 const About = () => {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-slate-50 to-white">
+    <section className="py-16 px-4 bg-gradient-to-b from-blue-50 to-sky-50">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-emerald-800 mb-8 text-center font-montserrat">
+        <h2 className="text-4xl font-bold text-amber-900 mb-8 text-center font-montserrat">
           О преподавателе
         </h2>
-        <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-2xl p-8 shadow-lg">
+        <div className="bg-gradient-to-r from-blue-50 to-sky-100 rounded-2xl p-8 shadow-lg">
           <div className="flex flex-col md:flex-row items-start gap-8">
             <div className="flex-shrink-0 md:w-64">
               <img

@@ -5,14 +5,14 @@ import Icon from "@/components/ui/icon";
 
 const Contact = () => {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-emerald-50 to-teal-50">
+    <section className="py-16 px-4 bg-gradient-to-b from-blue-50 to-sky-100">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-emerald-800 mb-12 text-center font-montserrat">
+        <h2 className="text-4xl font-bold text-amber-900 mb-12 text-center font-montserrat">
           Получить консультацию
         </h2>
         <div className="grid md:grid-cols-2 gap-12">
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-emerald-100">
-            <h3 className="text-2xl font-semibold text-emerald-800 mb-6 font-montserrat">
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-blue-100">
+            <h3 className="text-2xl font-semibold text-amber-900 mb-6 font-montserrat">
               Свяжитесь с нами
             </h3>
             <form className="space-y-6">
@@ -22,7 +22,7 @@ const Contact = () => {
                 </Label>
                 <Input
                   id="name"
-                  className="mt-2 border-emerald-200 focus:border-amber-400 focus:ring-amber-400"
+                  className="mt-2 border-blue-200 focus:border-orange-400 focus:ring-orange-400"
                   placeholder="Введите ваше имя"
                 />
               </div>
@@ -35,24 +35,28 @@ const Contact = () => {
                 </Label>
                 <Input
                   id="contact"
-                  className="mt-2 border-emerald-200 focus:border-amber-400 focus:ring-amber-400"
+                  className="mt-2 border-blue-200 focus:border-orange-400 focus:ring-orange-400"
                   placeholder="Введите телефон или email"
                 />
               </div>
-              <Button className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white py-3 text-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <Button className="w-full bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 text-white py-3 text-lg shadow-lg hover:shadow-xl transition-all duration-300">
                 Получить консультацию
               </Button>
             </form>
           </div>
 
           <div className="space-y-8">
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-emerald-100">
-              <h3 className="text-2xl font-semibold text-emerald-800 mb-6 font-montserrat">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-blue-100">
+              <h3 className="text-2xl font-semibold text-amber-900 mb-6 font-montserrat">
                 Контакты
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <Icon name="Mail" size={20} className="text-amber-500 mr-3" />
+                  <Icon
+                    name="Mail"
+                    size={20}
+                    className="text-orange-500 mr-3"
+                  />
                   <span className="text-slate-700 font-open-sans">
                     german_bemm@mail.ru
                   </span>
@@ -61,7 +65,7 @@ const Contact = () => {
                   <Icon
                     name="MessageCircle"
                     size={20}
-                    className="text-amber-500 mr-3"
+                    className="text-orange-500 mr-3"
                   />
                   <span className="text-slate-700 font-open-sans">
                     WhatsApp: +79528385413
@@ -70,8 +74,8 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-emerald-100">
-              <h3 className="text-xl font-semibold text-emerald-800 mb-4 font-montserrat">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-blue-100">
+              <h3 className="text-xl font-semibent text-amber-900 mb-4 font-montserrat">
                 Быстрая связь
               </h3>
               <p className="text-slate-700 mb-4 font-open-sans">

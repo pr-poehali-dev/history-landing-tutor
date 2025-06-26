@@ -44,9 +44,9 @@ const Packages = () => {
   ];
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-emerald-50 to-teal-50">
+    <section className="py-16 px-4 bg-gradient-to-b from-blue-50 to-sky-100">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-emerald-800 mb-4 text-center font-montserrat">
+        <h2 className="text-4xl font-bold text-amber-900 mb-4 text-center font-montserrat">
           Форматы занятий
         </h2>
         <p className="text-xl text-slate-600 mb-12 text-center font-open-sans">
@@ -58,18 +58,18 @@ const Packages = () => {
               key={index}
               className={`rounded-2xl p-8 relative ${
                 pkg.popular
-                  ? "ring-2 ring-amber-400 shadow-2xl bg-gradient-to-br from-white to-amber-50"
+                  ? "ring-2 ring-orange-400 shadow-2xl bg-gradient-to-br from-white to-orange-50"
                   : "shadow-lg bg-white"
               }`}
             >
               {pkg.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <div className="bg-gradient-to-r from-amber-400 to-yellow-500 text-gray-900 px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+                  <div className="bg-gradient-to-r from-orange-400 to-amber-500 text-gray-900 px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
                     Популярный
                   </div>
                 </div>
               )}
-              <h3 className="text-2xl font-bold text-emerald-800 mb-3 font-montserrat">
+              <h3 className="text-2xl font-bold text-amber-900 mb-3 font-montserrat">
                 {pkg.title}
               </h3>
               <p className="text-slate-600 mb-6 font-open-sans">
@@ -84,17 +84,17 @@ const Packages = () => {
                     <Icon
                       name="Check"
                       size={16}
-                      className="text-amber-500 mr-3 flex-shrink-0"
+                      className="text-orange-500 mr-3 flex-shrink-0"
                     />
                     {feature}
                   </li>
                 ))}
               </ul>
               <div className="text-center">
-                <div className="text-2xl font-bold text-emerald-800 mb-4 font-montserrat">
+                <div className="text-2xl font-bold text-amber-900 mb-4 font-montserrat">
                   {pkg.price}
                 </div>
-                <Button className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white shadow-lg hover:shadow-xl transition-all duration-300">
+                <Button className="w-full bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 text-white shadow-lg hover:shadow-xl transition-all duration-300">
                   Выбрать формат
                 </Button>
               </div>
