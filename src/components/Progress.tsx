@@ -7,7 +7,7 @@ const Progress = () => {
         <h2 className="text-4xl font-bold text-amber-900 mb-8 font-montserrat">
           Система отслеживания прогресса
         </h2>
-        <div className="bg-gradient-to-br from-blue-50 to-sky-100 rounded-2xl p-8 shadow-lg border border-blue-100">
+        <div className="bg-orange-50 rounded-2xl p-8 shadow-lg border border-orange-300">
           <div className="w-16 h-16 bg-gradient-to-r from-orange-400 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
             <Icon name="BarChart3" size={32} className="text-gray-900" />
           </div>

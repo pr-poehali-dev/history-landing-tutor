@@ -56,7 +56,7 @@ const Packages = () => {
           {packages.map((pkg, index) => (
             <div
               key={index}
-              className={`rounded-2xl p-8 relative ${
+              className={`rounded-2xl p-8 relative border border-orange-300 ${
                 pkg.popular
                   ? "ring-2 ring-orange-400 shadow-2xl bg-gradient-to-br from-white to-orange-50"
                   : "shadow-lg bg-white"

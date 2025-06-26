@@ -11,7 +11,7 @@ const Contact = () => {
           Получить консультацию
         </h2>
         <div className="grid md:grid-cols-2 gap-12">
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-blue-100">
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-orange-300">
             <h3 className="text-2xl font-semibold text-amber-900 mb-6 font-montserrat">
               Свяжитесь с нами
             </h3>
@@ -46,7 +46,7 @@ const Contact = () => {
           </div>
 
           <div className="space-y-8">
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-blue-100">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-orange-300">
               <h3 className="text-2xl font-semibold text-amber-900 mb-6 font-montserrat">
                 Контакты
               </h3>
@@ -74,7 +74,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-blue-100">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-orange-300">
               <h3 className="text-xl font-semibent text-amber-900 mb-4 font-montserrat">
                 Быстрая связь
               </h3>

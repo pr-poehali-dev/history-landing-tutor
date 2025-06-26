@@ -39,7 +39,7 @@ const Advantages = () => {
           {advantages.map((advantage, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-blue-50 to-sky-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 border border-blue-100"
+              className="bg-orange-50 rounded-xl p-6 hover:shadow-xl transition-all duration-300 border border-orange-300"
             >
               <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-amber-500 rounded-lg flex items-center justify-center mb-4 shadow-md">
                 <Icon
