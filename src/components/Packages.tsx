@@ -44,55 +44,57 @@ const Packages = () => {
   ];
 
   return (
-    <section className="py-16 px-4 bg-[#F9F5EE]">
+    <section className="py-16 px-4 bg-gradient-to-b from-emerald-50 to-teal-50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-[#2F4F7F] mb-4 text-center font-montserrat">
+        <h2 className="text-4xl font-bold text-emerald-800 mb-4 text-center font-montserrat">
           Форматы занятий
         </h2>
-        <p className="text-xl text-[#3A3A3A] mb-12 text-center font-open-sans">
+        <p className="text-xl text-slate-600 mb-12 text-center font-open-sans">
           Онлайн-обучение в удобном формате
         </p>
         <div className="grid md:grid-cols-3 gap-8">
           {packages.map((pkg, index) => (
             <div
               key={index}
-              className={`bg-white rounded-2xl p-8 relative ${
-                pkg.popular ? "ring-2 ring-[#E67E22] shadow-xl" : "shadow-lg"
+              className={`rounded-2xl p-8 relative ${
+                pkg.popular
+                  ? "ring-2 ring-amber-400 shadow-2xl bg-gradient-to-br from-white to-amber-50"
+                  : "shadow-lg bg-white"
               }`}
             >
               {pkg.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <div className="bg-[#E67E22] text-white px-4 py-2 rounded-full text-sm font-semibold">
+                  <div className="bg-gradient-to-r from-amber-400 to-yellow-500 text-gray-900 px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
                     Популярный
                   </div>
                 </div>
               )}
-              <h3 className="text-2xl font-bold text-[#2F4F7F] mb-3 font-montserrat">
+              <h3 className="text-2xl font-bold text-emerald-800 mb-3 font-montserrat">
                 {pkg.title}
               </h3>
-              <p className="text-[#3A3A3A] mb-6 font-open-sans">
+              <p className="text-slate-600 mb-6 font-open-sans">
                 {pkg.description}
               </p>
               <ul className="space-y-3 mb-8">
                 {pkg.features.map((feature, i) => (
                   <li
                     key={i}
-                    className="flex items-center text-[#3A3A3A] font-open-sans"
+                    className="flex items-center text-slate-600 font-open-sans"
                   >
                     <Icon
                       name="Check"
                       size={16}
-                      className="text-[#E67E22] mr-3 flex-shrink-0"
+                      className="text-amber-500 mr-3 flex-shrink-0"
                     />
                     {feature}
                   </li>
                 ))}
               </ul>
               <div className="text-center">
-                <div className="text-2xl font-bold text-[#2F4F7F] mb-4 font-montserrat">
+                <div className="text-2xl font-bold text-emerald-800 mb-4 font-montserrat">
                   {pkg.price}
                 </div>
-                <Button className="w-full bg-[#D9534F] hover:bg-[#C9302C] text-white">
+                <Button className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white shadow-lg hover:shadow-xl transition-all duration-300">
                   Выбрать формат
                 </Button>
               </div>

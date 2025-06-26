@@ -1,11 +1,11 @@
 const About = () => {
   return (
-    <section className="py-16 px-4 bg-white">
+    <section className="py-16 px-4 bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-[#2F4F7F] mb-8 text-center font-montserrat">
+        <h2 className="text-4xl font-bold text-emerald-800 mb-8 text-center font-montserrat">
           О преподавателе
         </h2>
-        <div className="bg-[#F9F5EE] rounded-2xl p-8">
+        <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-2xl p-8 shadow-lg">
           <div className="flex flex-col md:flex-row items-start gap-8">
             <div className="flex-shrink-0 md:w-64">
               <img
@@ -15,7 +15,7 @@ const About = () => {
               />
             </div>
             <div className="flex-1 md:pt-4">
-              <p className="text-lg text-[#3A3A3A] leading-relaxed font-open-sans">
+              <p className="text-lg text-slate-700 leading-relaxed font-open-sans">
                 Герман Владимирович — опытный преподаватель истории с
                 многолетним стажем подготовки к ЕГЭ, кандидат исторических наук.
                 За годы работы помог сотням учеников успешно сдать экзамен и

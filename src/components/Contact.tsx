@@ -5,55 +5,55 @@ import Icon from "@/components/ui/icon";
 
 const Contact = () => {
   return (
-    <section className="py-16 px-4 bg-[#F9F5EE]">
+    <section className="py-16 px-4 bg-gradient-to-b from-emerald-50 to-teal-50">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-[#2F4F7F] mb-12 text-center font-montserrat">
+        <h2 className="text-4xl font-bold text-emerald-800 mb-12 text-center font-montserrat">
           Получить консультацию
         </h2>
         <div className="grid md:grid-cols-2 gap-12">
-          <div className="bg-white rounded-2xl p-8">
-            <h3 className="text-2xl font-semibold text-[#2F4F7F] mb-6 font-montserrat">
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-emerald-100">
+            <h3 className="text-2xl font-semibold text-emerald-800 mb-6 font-montserrat">
               Свяжитесь с нами
             </h3>
             <form className="space-y-6">
               <div>
-                <Label htmlFor="name" className="text-[#3A3A3A] font-open-sans">
+                <Label htmlFor="name" className="text-slate-700 font-open-sans">
                   Ваше имя
                 </Label>
                 <Input
                   id="name"
-                  className="mt-2 border-gray-300 focus:border-[#E67E22]"
+                  className="mt-2 border-emerald-200 focus:border-amber-400 focus:ring-amber-400"
                   placeholder="Введите ваше имя"
                 />
               </div>
               <div>
                 <Label
                   htmlFor="contact"
-                  className="text-[#3A3A3A] font-open-sans"
+                  className="text-slate-700 font-open-sans"
                 >
                   Телефон или email
                 </Label>
                 <Input
                   id="contact"
-                  className="mt-2 border-gray-300 focus:border-[#E67E22]"
+                  className="mt-2 border-emerald-200 focus:border-amber-400 focus:ring-amber-400"
                   placeholder="Введите телефон или email"
                 />
               </div>
-              <Button className="w-full bg-[#D9534F] hover:bg-[#C9302C] text-white py-3 text-lg">
+              <Button className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white py-3 text-lg shadow-lg hover:shadow-xl transition-all duration-300">
                 Получить консультацию
               </Button>
             </form>
           </div>
 
           <div className="space-y-8">
-            <div className="bg-white rounded-2xl p-8">
-              <h3 className="text-2xl font-semibold text-[#2F4F7F] mb-6 font-montserrat">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-emerald-100">
+              <h3 className="text-2xl font-semibold text-emerald-800 mb-6 font-montserrat">
                 Контакты
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <Icon name="Mail" size={20} className="text-[#E67E22] mr-3" />
-                  <span className="text-[#3A3A3A] font-open-sans">
+                  <Icon name="Mail" size={20} className="text-amber-500 mr-3" />
+                  <span className="text-slate-700 font-open-sans">
                     german_bemm@mail.ru
                   </span>
                 </div>
@@ -61,23 +61,23 @@ const Contact = () => {
                   <Icon
                     name="MessageCircle"
                     size={20}
-                    className="text-[#E67E22] mr-3"
+                    className="text-amber-500 mr-3"
                   />
-                  <span className="text-[#3A3A3A] font-open-sans">
+                  <span className="text-slate-700 font-open-sans">
                     WhatsApp: +79528385413
                   </span>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8">
-              <h3 className="text-xl font-semibold text-[#2F4F7F] mb-4 font-montserrat">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-emerald-100">
+              <h3 className="text-xl font-semibold text-emerald-800 mb-4 font-montserrat">
                 Быстрая связь
               </h3>
-              <p className="text-[#3A3A3A] mb-4 font-open-sans">
+              <p className="text-slate-700 mb-4 font-open-sans">
                 Ответим на все вопросы в течение часа
               </p>
-              <Button className="w-full bg-[#25D366] hover:bg-[#20BA5A] text-white">
+              <Button className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white shadow-lg hover:shadow-xl transition-all duration-300">
                 <Icon name="MessageCircle" size={20} className="mr-2" />
                 Написать в WhatsApp
               </Button>
