@@ -6,15 +6,15 @@ const About = () => {
           О преподавателе
         </h2>
         <div className="bg-[#F9F5EE] rounded-2xl p-8">
-          <div className="flex flex-col lg:flex-row items-center gap-8">
-            <div className="flex-shrink-0">
+          <div className="flex flex-col md:flex-row items-start gap-8">
+            <div className="flex-shrink-0 md:w-64">
               <img
                 src="https://cdn.poehali.dev/files/25887e73-7c6f-4202-983a-42637166a955.JPG"
                 alt="Герман Владимирович - преподаватель истории"
-                className="w-64 h-80 object-cover rounded-xl shadow-lg"
+                className="w-64 h-80 object-cover rounded-xl shadow-lg mx-auto md:mx-0"
               />
             </div>
-            <div className="flex-1">
+            <div className="flex-1 md:pt-4">
               <p className="text-lg text-[#3A3A3A] leading-relaxed font-open-sans">
                 Герман Владимирович — опытный преподаватель истории с
                 многолетним стажем подготовки к ЕГЭ, кандидат исторических наук.
