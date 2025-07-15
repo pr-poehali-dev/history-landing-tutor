@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Advantages from "@/components/Advantages";
 import Packages from "@/components/Packages";
 import Progress from "@/components/Progress";
+import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
 
 const Index = () => {
@@ -13,6 +14,7 @@ const Index = () => {
       <Advantages />
       <Packages />
       <Progress />
+      <Reviews />
       <Contact />
     </div>
   );
